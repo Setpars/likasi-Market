@@ -7,7 +7,7 @@ vendeurs=vendeur.read()
 <template>
   <link rel="stylesheet" href="/src/assets/style.css">
  <div class="card" v-for="vendeur in vendeurs">
-    <img :src="vendeur.image" :alt="vendeur.name"/>
+    <img :src="`vendeur.image`" :alt="vendeur.name"/>
       <div class="card-content" style="position: relative;">
         <span style="width: fit-content;border-radius: 20px; box-shadow:0 0 2px black; padding:0 10px;">{{ vendeur.typeActivité}}</span>
         <h3>{{ vendeur.name }}</h3>
