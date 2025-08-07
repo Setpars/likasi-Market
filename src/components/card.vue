@@ -5,7 +5,7 @@ let vendeurs=ref([])
 vendeurs=vendeur.read()
 </script>
 <template>
-  <link rel="stylesheet" href="/src/assets/image/style.css">
+  <link rel="stylesheet" href="/src/assets/style.css">
  <div class="card" v-for="vendeur in vendeurs">
     <img :src="vendeur.image" alt="vendeur.name"/>
       <div class="card-content" style="position: relative;">

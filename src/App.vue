@@ -14,7 +14,7 @@ onMounted(async () => {
 </script>
 
 <template>
-  <link rel="stylesheet" href="/src/assets/image/style.css">
+  <link rel="stylesheet" href="/src/assets/style.css">
   <Preload v-if="loading"/> 
   <body v-else>
     <header>
