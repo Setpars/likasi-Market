@@ -29,7 +29,6 @@ const vendeurs =ref([
 
   }
 ])
-const getImageUrl = (filename) => new URL(`../assets/image/${filename}`, import.meta.url).href
 
 //let vendeurs = ref([])
 //vendeurs.value = vendeur.read()
