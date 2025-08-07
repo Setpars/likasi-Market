@@ -37,7 +37,7 @@ const getImageUrl = (filename) => new URL(`../assets/image/${filename}`, import.
 
 <template>
   <div class="card" v-for="vendeur in vendeurs" :key="vendeur.name">
-   <img :src="vendeur.image ? getImageUrl(vendeur.image) : 'default.png'" :alt="vendeur.name"/>
+   <img :src="vendeur.image" :alt="vendeur.name"/>
     <div class="card-content" style="position: relative;">
       <span style="width: fit-content; border-radius: 20px; box-shadow: 0 0 2px black; padding: 0 10px;">
         {{ vendeur.typeActivité }}
