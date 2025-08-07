@@ -9,7 +9,6 @@ vendeurs.value = vendeur.read()
 </script>
 
 <template>
-  <link rel="stylesheet" href="/src/assets/style.css">
   <div class="card" v-for="vendeur in vendeurs" :key="vendeur.name">
     <img :src="getImageUrl(vendeur.image)" :alt="vendeur.name" />
     <div class="card-content" style="position: relative;">
