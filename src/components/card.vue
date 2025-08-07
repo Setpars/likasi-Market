@@ -5,7 +5,7 @@ const vendeurs =ref([
   {
     name: "Mama Mado - Légumes frais",
     description: "Des légumes bio chaque jour au marché central de Likasi.",
-    image: "https://www.pexels.com/photo/delicious-strawberry-glazed-cake-with-decorations-33136498/",
+    image: "https://images.pexels.com/photos/33136498/pexels-photo-33136498.jpeg",
     typeActivité:"vente",
     adresse:'LIKASI',
     whatsapp: "+243831271968"
@@ -15,7 +15,7 @@ const vendeurs =ref([
     name: "Tony - Vêtements pour hommes",
     description: "Vêtements classe et pas chers. Livraison dans toute la ville.",
     typeActivité:"vente",
-    image: "https://www.pexels.com/photo/delicious-strawberry-glazed-cake-with-decorations-33136498/",
+    image: "https://images.pexels.com/photos/33136498/pexels-photo-33136498.jpeg",
     adresse:'LIKASI',
     whatsapp: "+243831271968"
   },
@@ -23,7 +23,7 @@ const vendeurs =ref([
     name: "Bakery Likasi",
     description: "Pain, gâteaux, croissants... Livraison possible.",
     typeActivité:"vente",
-    image: "https://www.pexels.com/photo/delicious-strawberry-glazed-cake-with-decorations-33136498/",
+    image: "https://images.pexels.com/photos/33136498/pexels-photo-33136498.jpeg",
     adresse:'LIKASI',
     whatsapp: "+243831271968"
 
