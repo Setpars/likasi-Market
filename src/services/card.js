@@ -2,31 +2,31 @@ const sections=[
   {
     "name": "Restauration",
     "items": [
-      { "nom": "Chez Mama Rose", "image": "/public/image/resto.jpg","btn":"Consultez le menu", "items": ["Fufu", "Poulet braisé"], "livraison": true },
-      { "nom": "Boulangerie Likasi", "image": "/public/image/resto.jpg","btn":"Consultez le menu", "items": ["Pain", "Croissants"], "livraison": true },
-      { "nom": "Snack Express", "image": "/public/image/resto.jpg","btn":"Consultez le menu","items": ["Burger", "Frites"], "livraison": false },
-      { "nom": "Jus Nature", "image": "/public/image/resto.jpg","btn":"Consultez le menu", "items": ["Jus de mangue", "Jus de bissap"], "livraison": true },
-      { "nom": "Grill Likasi", "image": "/public/image/resto.jpg","btn":"Consultez le menu", "items": ["Brochettes", "Plantains"], "livraison": false },
-      { "nom": "Mama Mado", "image": "/public/image/resto.jpg","btn":"Consultez le menu", "items": ["Saka Saka", "Riz coco"], "livraison": true },
-      { "nom": "Délices du Congo", "image": "/public/image/resto.jpg", "items": ["Liboke", "Ngulu"], "livraison": true },
-      { "nom": "Likasi Pizza", "image": "/public/image/resto.jpg","btn":"Consultez le menu", "items": ["Pizza viande", "Pizza veggie"], "livraison": false },
-      { "nom": "Tchop & Yamo", "image": "/public/image/resto.jpg","btn":"Consultez le menu", "items": ["Ndolé", "Baton de manioc"], "livraison": true },
-      { "nom": "Café Central", "image": "/public/image/resto.jpg","btn":"Consultez le menu", "items": ["Café", "Viennoiseries"], "livraison": false }
+      { "nom": "Chez Mama Rose", "image": "/image/resto.jpg","btn":"Consultez le menu", "items": ["Fufu", "Poulet braisé"], "livraison": true },
+      { "nom": "Boulangerie Likasi", "image": "/image/resto.jpg","btn":"Consultez le menu", "items": ["Pain", "Croissants"], "livraison": true },
+      { "nom": "Snack Express", "image": "/image/resto.jpg","btn":"Consultez le menu","items": ["Burger", "Frites"], "livraison": false },
+      { "nom": "Jus Nature", "image": "/image/resto.jpg","btn":"Consultez le menu", "items": ["Jus de mangue", "Jus de bissap"], "livraison": true },
+      { "nom": "Grill Likasi", "image": "/image/resto.jpg","btn":"Consultez le menu", "items": ["Brochettes", "Plantains"], "livraison": false },
+      { "nom": "Mama Mado", "image": "/image/resto.jpg","btn":"Consultez le menu", "items": ["Saka Saka", "Riz coco"], "livraison": true },
+      { "nom": "Délices du Congo", "image": "/image/resto.jpg", "items": ["Liboke", "Ngulu"], "livraison": true },
+      { "nom": "Likasi Pizza", "image": "/image/resto.jpg","btn":"Consultez le menu", "items": ["Pizza viande", "Pizza veggie"], "livraison": false },
+      { "nom": "Tchop & Yamo", "image": "/image/resto.jpg","btn":"Consultez le menu", "items": ["Ndolé", "Baton de manioc"], "livraison": true },
+      { "nom": "Café Central", "image": "/image/resto.jpg","btn":"Consultez le menu", "items": ["Café", "Viennoiseries"], "livraison": false }
     ]
   },
   {
     "name": "Boutique",
     "items": [
-      { "nom": "Likasi Style", "image": "/public/image/boutique.jpg","btn":"Consulter le catalogue", "items": ["T-shirts wax", "Sacs raphia"], "livraison": false },
-      { "nom": "Mode Élite", "image": "/public/image/boutiques.jpg","btn":"Consulter le catalogue", "items": ["Robes", "Chaussures"], "livraison": true },
-      { "nom": "Bijoux Likasi", "image": "/public/image/boutique.jpg","btn":"Consulter le catalogue", "items": ["Colliers", "Bracelets"], "livraison": false },
-      { "nom": "Beauté Naturelle", "image": "/public/image/boutique3.jpg","btn":"Consulter le catalogue", "items": ["Crèmes", "Savons bio"], "livraison": true },
-      { "nom": "Maison Chic", "image": "/public/image/boutique.jpg","btn":"Consulter le catalogue", "items": ["Rideaux", "Coussins"], "livraison": false },
-      { "nom": "Artisanat Likasi", "image": "/public/image/boutique2.jpg","btn":"Consulter le catalogue", "items": ["Objets déco", "Statues bois"], "livraison": true },
-      { "nom": "Kids Fashion", "image": "/public/image/boutique.jpg","btn":"Consulter le catalogue", "items": ["Vêtements enfants", "Chaussures bébé"], "livraison": false },
-      { "nom": "Wax & Co", "image": "/public/image/boutique3.jpg","btn":"Consulter le catalogue", "items": ["Pagne", "Vestes wax"], "livraison": true },
-      { "nom": "Access Likasi", "image": "/public/image/boutique2.jpg","btn":"Consulter le catalogue", "items": ["Montres", "Lunettes"], "livraison": false },
-      { "nom": "Déco Express", "image": "/public/image/boutiques.jpg","btn":"Consulter le catalogue", "items": ["Lampes", "Tableaux"], "livraison": true }
+      { "nom": "Likasi Style", "image": "/image/boutique.jpg","btn":"Consulter le catalogue", "items": ["T-shirts wax", "Sacs raphia"], "livraison": false },
+      { "nom": "Mode Élite", "image": "/image/boutiques.jpg","btn":"Consulter le catalogue", "items": ["Robes", "Chaussures"], "livraison": true },
+      { "nom": "Bijoux Likasi", "image": "/image/boutique.jpg","btn":"Consulter le catalogue", "items": ["Colliers", "Bracelets"], "livraison": false },
+      { "nom": "Beauté Naturelle", "image": "/image/boutique3.jpg","btn":"Consulter le catalogue", "items": ["Crèmes", "Savons bio"], "livraison": true },
+      { "nom": "Maison Chic", "image": "/image/boutique.jpg","btn":"Consulter le catalogue", "items": ["Rideaux", "Coussins"], "livraison": false },
+      { "nom": "Artisanat Likasi", "image": "/image/boutique2.jpg","btn":"Consulter le catalogue", "items": ["Objets déco", "Statues bois"], "livraison": true },
+      { "nom": "Kids Fashion", "image": "/image/boutique.jpg","btn":"Consulter le catalogue", "items": ["Vêtements enfants", "Chaussures bébé"], "livraison": false },
+      { "nom": "Wax & Co", "image": "/image/boutique3.jpg","btn":"Consulter le catalogue", "items": ["Pagne", "Vestes wax"], "livraison": true },
+      { "nom": "Access Likasi", "image": "/image/boutique2.jpg","btn":"Consulter le catalogue", "items": ["Montres", "Lunettes"], "livraison": false },
+      { "nom": "Déco Express", "image": "/image/boutiques.jpg","btn":"Consulter le catalogue", "items": ["Lampes", "Tableaux"], "livraison": true }
     ]
   },
   {
@@ -47,16 +47,16 @@ const sections=[
   {
     "name": "Autres",
     "items": [
-      { "nom": "Occasions Likasi", "image": "/public/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Téléphone", "Vélo"], "livraison": true },
-      { "nom": "Recyclage Express", "image": "/public/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Plastique", "Métal"], "livraison": false },
-      { "nom": "Petites Annonces", "image": "/public/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Offres d’emploi", "Vente terrain"], "livraison": true },
-      { "nom": "Livres & BD", "image": "/public/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Romans", "Bandes dessinées"], "livraison": false },
-      { "nom": "Meubles d’occasion", "image": "/public/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Canapé", "Table bois"], "livraison": true },
-      { "nom": "Électronique Reconditionnée", "image": "/public/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["TV", "Radio"], "livraison": false },
-      { "nom": "Vêtements Seconde Main", "image": "/public/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Jeans", "Vestes"], "livraison": true },
-      { "nom": "Objets Rares", "image": "/public/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Antiquités", "Pièces uniques"], "livraison": false },
-      { "nom": "Matériel Scolaire", "image": "/public/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Cahiers", "Stylos"], "livraison": true },
-      { "nom": "Accessoires Moto", "image": "/public/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Casques", "Gants"], "livraison": false }
+      { "nom": "Occasions Likasi", "image": "/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Téléphone", "Vélo"], "livraison": true },
+      { "nom": "Recyclage Express", "image": "/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Plastique", "Métal"], "livraison": false },
+      { "nom": "Petites Annonces", "image": "/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Offres d’emploi", "Vente terrain"], "livraison": true },
+      { "nom": "Livres & BD", "image": "/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Romans", "Bandes dessinées"], "livraison": false },
+      { "nom": "Meubles d’occasion", "image": "/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Canapé", "Table bois"], "livraison": true },
+      { "nom": "Électronique Reconditionnée", "image": "/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["TV", "Radio"], "livraison": false },
+      { "nom": "Vêtements Seconde Main", "image": "/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Jeans", "Vestes"], "livraison": true },
+      { "nom": "Objets Rares", "image": "/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Antiquités", "Pièces uniques"], "livraison": false },
+      { "nom": "Matériel Scolaire", "image": "/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Cahiers", "Stylos"], "livraison": true },
+      { "nom": "Accessoires Moto", "image": "/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Casques", "Gants"], "livraison": false }
     ]
   }
 ]
