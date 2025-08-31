@@ -67,31 +67,31 @@ const sections=[
 
 
 const showAll=()=>{
-    sections.value
+    sections
     console.log(sections.value);
     }
 
 const showServices=()=>{
-    sections.value
-    sections.value=sections.value.filter(element => element.name =='Services')
+    sections
+    sections=sections.filter(element => element.name =='Services')
     console.log(sections.value);
     }
 
 const showBoutique=()=>{
-    sections.value
-    sections.value=sections.value.filter(element => element.name =='Boutique')
+    sections
+    sections=sections.value.filter(element => element.name =='Boutique')
     console.log(sections.value);
     }
 
 const showAutre=()=>{
-    sections.value
-    sections.value=sections.value.filter(element => element.name =='Autres')
+    sections
+    sections=sections.filter(element => element.name =='Autres')
     console.log(sections.value);
     }
 
 const showResto=()=>{
-    sections.value
-    sections.value=sections.value.filter(element => element.name =='Restauration')
+    sections
+    sectione=sections.filter(element => element.name =='Restauration')
     console.log(sections.value);
     }
 
