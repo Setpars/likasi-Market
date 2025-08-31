@@ -5,7 +5,7 @@ const sections=[
   {
     "name": "Restauration",
     "items": [
-      { "nom": "Chez Mama Rose", "image": "/image/resto.jpg","btn":"Consultez le menu", "items": ["Fufu", "Poulet braisé"], "livraison": true },
+      { "nom": "Chez Mama Rose", "image": '/image/boutiq.jpg',"btn":"Consultez le menu", "items": ["Fufu", "Poulet braisé"], "livraison": true },
       { "nom": "Boulangerie Likasi", "image": "/image/resto.jpg","btn":"Consultez le menu", "items": ["Pain", "Croissants"], "livraison": true },
       { "nom": "Snack Express", "image": "/image/resto.jpg","btn":"Consultez le menu","items": ["Burger", "Frites"], "livraison": false },
       { "nom": "Jus Nature", "image": "/image/resto.jpg","btn":"Consultez le menu", "items": ["Jus de mangue", "Jus de bissap"], "livraison": true },
