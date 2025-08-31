@@ -67,30 +67,30 @@ const sections=[
 
 
 const showAll=()=>{
-    sections.value=data.read()
+    sections.value
     console.log(sections.value);
     }
 
 const showServices=()=>{
-    sections.value=data.read()
+    sections.value
     sections.value=sections.value.filter(element => element.name =='Services')
     console.log(sections.value);
     }
 
 const showBoutique=()=>{
-    sections.value=data.read()
+    sections.value
     sections.value=sections.value.filter(element => element.name =='Boutique')
     console.log(sections.value);
     }
 
 const showAutre=()=>{
-    sections.value=data.read()
+    sections.value
     sections.value=sections.value.filter(element => element.name =='Autres')
     console.log(sections.value);
     }
 
 const showResto=()=>{
-    sections.value=data.read()
+    sections.value
     sections.value=sections.value.filter(element => element.name =='Restauration')
     console.log(sections.value);
     }
