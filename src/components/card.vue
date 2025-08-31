@@ -20,46 +20,46 @@ const sections=[
   {
     "name": "Boutique",
     "items": [
-      { "nom": "Likasi Style", "image": "/public/image/boutique.jpg","btn":"Consulter le catalogue", "items": ["T-shirts wax", "Sacs raphia"], "livraison": false },
-      { "nom": "Mode Élite", "image": "/public/image/boutiques.jpg","btn":"Consulter le catalogue", "items": ["Robes", "Chaussures"], "livraison": true },
-      { "nom": "Bijoux Likasi", "image": "/public/image/boutique.jpg","btn":"Consulter le catalogue", "items": ["Colliers", "Bracelets"], "livraison": false },
-      { "nom": "Beauté Naturelle", "image": "/public/image/boutique3.jpg","btn":"Consulter le catalogue", "items": ["Crèmes", "Savons bio"], "livraison": true },
-      { "nom": "Maison Chic", "image": "/public/image/boutique.jpg","btn":"Consulter le catalogue", "items": ["Rideaux", "Coussins"], "livraison": false },
-      { "nom": "Artisanat Likasi", "image": "/public/image/boutique2.jpg","btn":"Consulter le catalogue", "items": ["Objets déco", "Statues bois"], "livraison": true },
-      { "nom": "Kids Fashion", "image": "/public/image/boutique.jpg","btn":"Consulter le catalogue", "items": ["Vêtements enfants", "Chaussures bébé"], "livraison": false },
-      { "nom": "Wax & Co", "image": "/public/image/boutique3.jpg","btn":"Consulter le catalogue", "items": ["Pagne", "Vestes wax"], "livraison": true },
-      { "nom": "Access Likasi", "image": "/public/image/boutique2.jpg","btn":"Consulter le catalogue", "items": ["Montres", "Lunettes"], "livraison": false },
-      { "nom": "Déco Express", "image": "/public/image/boutiques.jpg","btn":"Consulter le catalogue", "items": ["Lampes", "Tableaux"], "livraison": true }
+      { "nom": "Likasi Style", "image": "/image/boutique.jpg","btn":"Consulter le catalogue", "items": ["T-shirts wax", "Sacs raphia"], "livraison": false },
+      { "nom": "Mode Élite", "image": "/image/boutiques.jpg","btn":"Consulter le catalogue", "items": ["Robes", "Chaussures"], "livraison": true },
+      { "nom": "Bijoux Likasi", "image": "/image/boutique.jpg","btn":"Consulter le catalogue", "items": ["Colliers", "Bracelets"], "livraison": false },
+      { "nom": "Beauté Naturelle", "image": "/image/boutique3.jpg","btn":"Consulter le catalogue", "items": ["Crèmes", "Savons bio"], "livraison": true },
+      { "nom": "Maison Chic", "image": "/image/boutique.jpg","btn":"Consulter le catalogue", "items": ["Rideaux", "Coussins"], "livraison": false },
+      { "nom": "Artisanat Likasi", "image": "/image/boutique2.jpg","btn":"Consulter le catalogue", "items": ["Objets déco", "Statues bois"], "livraison": true },
+      { "nom": "Kids Fashion", "image": "/image/boutique.jpg","btn":"Consulter le catalogue", "items": ["Vêtements enfants", "Chaussures bébé"], "livraison": false },
+      { "nom": "Wax & Co", "image": "/image/boutique3.jpg","btn":"Consulter le catalogue", "items": ["Pagne", "Vestes wax"], "livraison": true },
+      { "nom": "Access Likasi", "image": "/image/boutique2.jpg","btn":"Consulter le catalogue", "items": ["Montres", "Lunettes"], "livraison": false },
+      { "nom": "Déco Express", "image": "/image/boutiques.jpg","btn":"Consulter le catalogue", "items": ["Lampes", "Tableaux"], "livraison": true }
     ]
   },
   {
     "name": "Services",
     "items": [
-      { "nom": "Coiffure Divine", "image": "/public/image/service.jpg","btn":"Réservez un service maintenant", "items": ["Tresses", "Défrisage"], "livraison": false },
-      { "nom": "Tech Repair", "image": "/public/image/service.jpg","btn":"Réservez un service maintenant", "items": ["Réparation téléphone", "PC"], "livraison": true },
-      { "nom": "Transport Likasi", "image": "/public/image/service.jpg","btn":"Réservez un service maintenant", "items": ["Moto-taxi", "Livraison colis"], "livraison": true },
-      { "nom": "Studio Photo", "image": "/public/image/service.jpg","btn":"Réservez un service maintenant", "items": ["Portraits", "Événements"], "livraison": false },
-      { "nom": "Design Graphique", "image": "/public/image/service.jpg","btn":"Réservez un service maintenant", "items": ["Logos", "Flyers"], "livraison": true },
-      { "nom": "Nettoyage Pro", "image": "/public/image/service.jpg","btn":"Réservez un service maintenant", "items": ["Bureaux", "Maisons"], "livraison": true },
-      { "nom": "Impression Rapide", "image": "/public/image/service.jpg","btn":"Réservez un service maintenant", "items": ["Cartes", "Affiches"], "livraison": false },
-      { "nom": "Événementiel Likasi", "image": "/public/image/service.jpg","btn":"Réservez un service maintenant", "items": ["Décoration", "Sonorisation"], "livraison": true },
-      { "nom": "Consulting Web", "image": "/public/image/service.jpg","btn":"Réservez un service maintenant", "items": ["Sites web", "SEO"], "livraison": false },
-      { "nom": "Cours Privés", "image": "/public/image/service.jpg","btn":"Réservez un service maintenant", "items": ["Maths", "Informatique"], "livraison": true }
+      { "nom": "Coiffure Divine", "image": "/image/service.jpg","btn":"Réservez un service maintenant", "items": ["Tresses", "Défrisage"], "livraison": false },
+      { "nom": "Tech Repair", "image": "/image/service.jpg","btn":"Réservez un service maintenant", "items": ["Réparation téléphone", "PC"], "livraison": true },
+      { "nom": "Transport Likasi", "image": "/image/service.jpg","btn":"Réservez un service maintenant", "items": ["Moto-taxi", "Livraison colis"], "livraison": true },
+      { "nom": "Studio Photo", "image": "/image/service.jpg","btn":"Réservez un service maintenant", "items": ["Portraits", "Événements"], "livraison": false },
+      { "nom": "Design Graphique", "image": "/image/service.jpg","btn":"Réservez un service maintenant", "items": ["Logos", "Flyers"], "livraison": true },
+      { "nom": "Nettoyage Pro", "image": "/image/service.jpg","btn":"Réservez un service maintenant", "items": ["Bureaux", "Maisons"], "livraison": true },
+      { "nom": "Impression Rapide", "image": "/image/service.jpg","btn":"Réservez un service maintenant", "items": ["Cartes", "Affiches"], "livraison": false },
+      { "nom": "Événementiel Likasi", "image": "/image/service.jpg","btn":"Réservez un service maintenant", "items": ["Décoration", "Sonorisation"], "livraison": true },
+      { "nom": "Consulting Web", "image": "/image/service.jpg","btn":"Réservez un service maintenant", "items": ["Sites web", "SEO"], "livraison": false },
+      { "nom": "Cours Privés", "image": "/image/service.jpg","btn":"Réservez un service maintenant", "items": ["Maths", "Informatique"], "livraison": true }
     ]
   },
   {
     "name": "Autres",
     "items": [
-      { "nom": "Occasions Likasi", "image": "/public/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Téléphone", "Vélo"], "livraison": true },
-      { "nom": "Recyclage Express", "image": "/public/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Plastique", "Métal"], "livraison": false },
-      { "nom": "Petites Annonces", "image": "/public/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Offres d’emploi", "Vente terrain"], "livraison": true },
-      { "nom": "Livres & BD", "image": "/public/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Romans", "Bandes dessinées"], "livraison": false },
-      { "nom": "Meubles d’occasion", "image": "/public/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Canapé", "Table bois"], "livraison": true },
-      { "nom": "Électronique Reconditionnée", "image": "/public/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["TV", "Radio"], "livraison": false },
-      { "nom": "Vêtements Seconde Main", "image": "/public/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Jeans", "Vestes"], "livraison": true },
-      { "nom": "Objets Rares", "image": "/public/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Antiquités", "Pièces uniques"], "livraison": false },
-      { "nom": "Matériel Scolaire", "image": "/public/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Cahiers", "Stylos"], "livraison": true },
-      { "nom": "Accessoires Moto", "image": "/public/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Casques", "Gants"], "livraison": false }
+      { "nom": "Occasions Likasi", "image": "/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Téléphone", "Vélo"], "livraison": true },
+      { "nom": "Recyclage Express", "image": "/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Plastique", "Métal"], "livraison": false },
+      { "nom": "Petites Annonces", "image": "/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Offres d’emploi", "Vente terrain"], "livraison": true },
+      { "nom": "Livres & BD", "image": "/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Romans", "Bandes dessinées"], "livraison": false },
+      { "nom": "Meubles d’occasion", "image": "/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Canapé", "Table bois"], "livraison": true },
+      { "nom": "Électronique Reconditionnée", "image": "/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["TV", "Radio"], "livraison": false },
+      { "nom": "Vêtements Seconde Main", "image": "/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Jeans", "Vestes"], "livraison": true },
+      { "nom": "Objets Rares", "image": "/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Antiquités", "Pièces uniques"], "livraison": false },
+      { "nom": "Matériel Scolaire", "image": "/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Cahiers", "Stylos"], "livraison": true },
+      { "nom": "Accessoires Moto", "image": "/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Casques", "Gants"], "livraison": false }
     ]
   }
 ]
