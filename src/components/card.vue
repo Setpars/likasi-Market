@@ -5,16 +5,16 @@ const sections=[
   {
     "name": "Restauration",
     "items": [
-      { "nom": "Chez Mama Rose", "image": "/public/image/resto.jpg","btn":"Consultez le menu", "items": ["Fufu", "Poulet braisé"], "livraison": true },
-      { "nom": "Boulangerie Likasi", "image": "/public/image/resto.jpg","btn":"Consultez le menu", "items": ["Pain", "Croissants"], "livraison": true },
-      { "nom": "Snack Express", "image": "/public/image/resto.jpg","btn":"Consultez le menu","items": ["Burger", "Frites"], "livraison": false },
-      { "nom": "Jus Nature", "image": "/public/image/resto.jpg","btn":"Consultez le menu", "items": ["Jus de mangue", "Jus de bissap"], "livraison": true },
-      { "nom": "Grill Likasi", "image": "/public/image/resto.jpg","btn":"Consultez le menu", "items": ["Brochettes", "Plantains"], "livraison": false },
-      { "nom": "Mama Mado", "image": "/public/image/resto.jpg","btn":"Consultez le menu", "items": ["Saka Saka", "Riz coco"], "livraison": true },
-      { "nom": "Délices du Congo", "image": "/public/image/resto.jpg", "items": ["Liboke", "Ngulu"], "livraison": true },
-      { "nom": "Likasi Pizza", "image": "/public/image/resto.jpg","btn":"Consultez le menu", "items": ["Pizza viande", "Pizza veggie"], "livraison": false },
-      { "nom": "Tchop & Yamo", "image": "/public/image/resto.jpg","btn":"Consultez le menu", "items": ["Ndolé", "Baton de manioc"], "livraison": true },
-      { "nom": "Café Central", "image": "/public/image/resto.jpg","btn":"Consultez le menu", "items": ["Café", "Viennoiseries"], "livraison": false }
+      { "nom": "Chez Mama Rose", "image": "/image/resto.jpg","btn":"Consultez le menu", "items": ["Fufu", "Poulet braisé"], "livraison": true },
+      { "nom": "Boulangerie Likasi", "image": "/image/resto.jpg","btn":"Consultez le menu", "items": ["Pain", "Croissants"], "livraison": true },
+      { "nom": "Snack Express", "image": "/image/resto.jpg","btn":"Consultez le menu","items": ["Burger", "Frites"], "livraison": false },
+      { "nom": "Jus Nature", "image": "/image/resto.jpg","btn":"Consultez le menu", "items": ["Jus de mangue", "Jus de bissap"], "livraison": true },
+      { "nom": "Grill Likasi", "image": "/image/resto.jpg","btn":"Consultez le menu", "items": ["Brochettes", "Plantains"], "livraison": false },
+      { "nom": "Mama Mado", "image": "/image/resto.jpg","btn":"Consultez le menu", "items": ["Saka Saka", "Riz coco"], "livraison": true },
+      { "nom": "Délices du Congo", "image": "/image/resto.jpg", "items": ["Liboke", "Ngulu"], "livraison": true },
+      { "nom": "Likasi Pizza", "image": "/image/resto.jpg","btn":"Consultez le menu", "items": ["Pizza viande", "Pizza veggie"], "livraison": false },
+      { "nom": "Tchop & Yamo", "image": "/image/resto.jpg","btn":"Consultez le menu", "items": ["Ndolé", "Baton de manioc"], "livraison": true },
+      { "nom": "Café Central", "image": "/image/resto.jpg","btn":"Consultez le menu", "items": ["Café", "Viennoiseries"], "livraison": false }
     ]
   },
   {
