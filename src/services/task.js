@@ -25,6 +25,32 @@ const vendeurs =[
     adresse:'LIKASI',
     whatsapp: "+243831271968"
 
+  },
+    {
+    name: "Bakery Likasi",
+    description: "Pain, gâteaux, croissants... Livraison possible.",
+    typeActivité:"vente",
+    image: "./assets/image/pexels-busenur-demirkan-766536648-33136498.jpg",
+    adresse:'LIKASI',
+    whatsapp: "+243831271968"
+
+  },
+    {
+    name: "Bakery Likasi",
+    description: "Pain, gâteaux, croissants... Livraison possible.",
+    typeActivité:"vente",
+    image: "./assets/image/pexels-busenur-demirkan-766536648-33136498.jpg",
+    adresse:'LIKASI',
+    whatsapp: "+243831271968"
+
+  },  {
+    name: "Bakery Likasi",
+    description: "Pain, gâteaux, croissants... Livraison possible.",
+    typeActivité:"vente",
+    image: "./assets/image/pexels-busenur-demirkan-766536648-33136498.jpg",
+    adresse:'LIKASI',
+    whatsapp: "+243831271968"
+
   }
 ]
 
