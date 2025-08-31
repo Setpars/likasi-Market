@@ -2,7 +2,7 @@
 import Card from '@/components/card.vue';
 import { ref } from "vue";
 import data from "@/services/card"
-const sections=[
+const sections=ref([
   {
     "name": "Restauration",
     "items": [
@@ -63,35 +63,32 @@ const sections=[
       { "nom": "Accessoires Moto", "image": "/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Casques", "Gants"], "livraison": false }
     ]
   }
-]
+])
 
 
 const showAll=()=>{
-    sections
+    sections.value=sections.value
     console.log(sections.value);
     }
 
 const showServices=()=>{
-    sections
-    sections=sections.filter(element => element.name =='Services')
+    
+    sections.value=sections.value.filter(element => element.name =='Services')
     console.log(sections.value);
     }
 
 const showBoutique=()=>{
-    sections
-    sections=sections.value.filter(element => element.name =='Boutique')
+    sections.value=sections.value.filter(element => element.name =='Boutique')
     console.log(sections.value);
     }
 
 const showAutre=()=>{
-    sections
-    sections=sections.filter(element => element.name =='Autres')
+    sections.value=sections.value.filter(element => element.name =='Autres')
     console.log(sections.value);
     }
 
 const showResto=()=>{
-    sections
-    sectione=sections.filter(element => element.name =='Restauration')
+    sections.value=sections.value.filter(element => element.name =='Restauration')
     console.log(sections.value);
     }
 
