@@ -1,8 +1,70 @@
 <script setup>
 import data from "@/services/card"
 import { ref } from "vue";
-let sections=ref([])
-sections.value=data.read()
+const sections=[
+  {
+    "name": "Restauration",
+    "items": [
+      { "nom": "Chez Mama Rose", "image": "/public/image/resto.jpg","btn":"Consultez le menu", "items": ["Fufu", "Poulet braisé"], "livraison": true },
+      { "nom": "Boulangerie Likasi", "image": "/public/image/resto.jpg","btn":"Consultez le menu", "items": ["Pain", "Croissants"], "livraison": true },
+      { "nom": "Snack Express", "image": "/public/image/resto.jpg","btn":"Consultez le menu","items": ["Burger", "Frites"], "livraison": false },
+      { "nom": "Jus Nature", "image": "/public/image/resto.jpg","btn":"Consultez le menu", "items": ["Jus de mangue", "Jus de bissap"], "livraison": true },
+      { "nom": "Grill Likasi", "image": "/public/image/resto.jpg","btn":"Consultez le menu", "items": ["Brochettes", "Plantains"], "livraison": false },
+      { "nom": "Mama Mado", "image": "/public/image/resto.jpg","btn":"Consultez le menu", "items": ["Saka Saka", "Riz coco"], "livraison": true },
+      { "nom": "Délices du Congo", "image": "/public/image/resto.jpg", "items": ["Liboke", "Ngulu"], "livraison": true },
+      { "nom": "Likasi Pizza", "image": "/public/image/resto.jpg","btn":"Consultez le menu", "items": ["Pizza viande", "Pizza veggie"], "livraison": false },
+      { "nom": "Tchop & Yamo", "image": "/public/image/resto.jpg","btn":"Consultez le menu", "items": ["Ndolé", "Baton de manioc"], "livraison": true },
+      { "nom": "Café Central", "image": "/public/image/resto.jpg","btn":"Consultez le menu", "items": ["Café", "Viennoiseries"], "livraison": false }
+    ]
+  },
+  {
+    "name": "Boutique",
+    "items": [
+      { "nom": "Likasi Style", "image": "/public/image/boutique.jpg","btn":"Consulter le catalogue", "items": ["T-shirts wax", "Sacs raphia"], "livraison": false },
+      { "nom": "Mode Élite", "image": "/public/image/boutiques.jpg","btn":"Consulter le catalogue", "items": ["Robes", "Chaussures"], "livraison": true },
+      { "nom": "Bijoux Likasi", "image": "/public/image/boutique.jpg","btn":"Consulter le catalogue", "items": ["Colliers", "Bracelets"], "livraison": false },
+      { "nom": "Beauté Naturelle", "image": "/public/image/boutique3.jpg","btn":"Consulter le catalogue", "items": ["Crèmes", "Savons bio"], "livraison": true },
+      { "nom": "Maison Chic", "image": "/public/image/boutique.jpg","btn":"Consulter le catalogue", "items": ["Rideaux", "Coussins"], "livraison": false },
+      { "nom": "Artisanat Likasi", "image": "/public/image/boutique2.jpg","btn":"Consulter le catalogue", "items": ["Objets déco", "Statues bois"], "livraison": true },
+      { "nom": "Kids Fashion", "image": "/public/image/boutique.jpg","btn":"Consulter le catalogue", "items": ["Vêtements enfants", "Chaussures bébé"], "livraison": false },
+      { "nom": "Wax & Co", "image": "/public/image/boutique3.jpg","btn":"Consulter le catalogue", "items": ["Pagne", "Vestes wax"], "livraison": true },
+      { "nom": "Access Likasi", "image": "/public/image/boutique2.jpg","btn":"Consulter le catalogue", "items": ["Montres", "Lunettes"], "livraison": false },
+      { "nom": "Déco Express", "image": "/public/image/boutiques.jpg","btn":"Consulter le catalogue", "items": ["Lampes", "Tableaux"], "livraison": true }
+    ]
+  },
+  {
+    "name": "Services",
+    "items": [
+      { "nom": "Coiffure Divine", "image": "/public/image/service.jpg","btn":"Réservez un service maintenant", "items": ["Tresses", "Défrisage"], "livraison": false },
+      { "nom": "Tech Repair", "image": "/public/image/service.jpg","btn":"Réservez un service maintenant", "items": ["Réparation téléphone", "PC"], "livraison": true },
+      { "nom": "Transport Likasi", "image": "/public/image/service.jpg","btn":"Réservez un service maintenant", "items": ["Moto-taxi", "Livraison colis"], "livraison": true },
+      { "nom": "Studio Photo", "image": "/public/image/service.jpg","btn":"Réservez un service maintenant", "items": ["Portraits", "Événements"], "livraison": false },
+      { "nom": "Design Graphique", "image": "/public/image/service.jpg","btn":"Réservez un service maintenant", "items": ["Logos", "Flyers"], "livraison": true },
+      { "nom": "Nettoyage Pro", "image": "/public/image/service.jpg","btn":"Réservez un service maintenant", "items": ["Bureaux", "Maisons"], "livraison": true },
+      { "nom": "Impression Rapide", "image": "/public/image/service.jpg","btn":"Réservez un service maintenant", "items": ["Cartes", "Affiches"], "livraison": false },
+      { "nom": "Événementiel Likasi", "image": "/public/image/service.jpg","btn":"Réservez un service maintenant", "items": ["Décoration", "Sonorisation"], "livraison": true },
+      { "nom": "Consulting Web", "image": "/public/image/service.jpg","btn":"Réservez un service maintenant", "items": ["Sites web", "SEO"], "livraison": false },
+      { "nom": "Cours Privés", "image": "/public/image/service.jpg","btn":"Réservez un service maintenant", "items": ["Maths", "Informatique"], "livraison": true }
+    ]
+  },
+  {
+    "name": "Autres",
+    "items": [
+      { "nom": "Occasions Likasi", "image": "/public/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Téléphone", "Vélo"], "livraison": true },
+      { "nom": "Recyclage Express", "image": "/public/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Plastique", "Métal"], "livraison": false },
+      { "nom": "Petites Annonces", "image": "/public/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Offres d’emploi", "Vente terrain"], "livraison": true },
+      { "nom": "Livres & BD", "image": "/public/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Romans", "Bandes dessinées"], "livraison": false },
+      { "nom": "Meubles d’occasion", "image": "/public/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Canapé", "Table bois"], "livraison": true },
+      { "nom": "Électronique Reconditionnée", "image": "/public/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["TV", "Radio"], "livraison": false },
+      { "nom": "Vêtements Seconde Main", "image": "/public/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Jeans", "Vestes"], "livraison": true },
+      { "nom": "Objets Rares", "image": "/public/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Antiquités", "Pièces uniques"], "livraison": false },
+      { "nom": "Matériel Scolaire", "image": "/public/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Cahiers", "Stylos"], "livraison": true },
+      { "nom": "Accessoires Moto", "image": "/public/image/service2.jpg","btn":"Réservez un service maintenant", "items": ["Casques", "Gants"], "livraison": false }
+    ]
+  }
+]
+/*let sections=ref([])
+sections.value=data.read()*/
 </script>
 <template>
   <section v-for="section in sections" :key="section.name">
