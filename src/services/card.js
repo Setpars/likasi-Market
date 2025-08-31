@@ -32,16 +32,16 @@ const sections=[
   {
     "name": "Services",
     "items": [
-      { "nom": "Coiffure Divine", "image": "//image/service.jpg","btn":"Réservez un service maintenant", "items": ["Tresses", "Défrisage"], "livraison": false },
-      { "nom": "Tech Repair", "image": "//image/service.jpg","btn":"Réservez un service maintenant", "items": ["Réparation téléphone", "PC"], "livraison": true },
+      { "nom": "Coiffure Divine", "image": "/image/service.jpg","btn":"Réservez un service maintenant", "items": ["Tresses", "Défrisage"], "livraison": false },
+      { "nom": "Tech Repair", "image": "/image/service.jpg","btn":"Réservez un service maintenant", "items": ["Réparation téléphone", "PC"], "livraison": true },
       { "nom": "Transport Likasi", "image": "//image/service.jpg","btn":"Réservez un service maintenant", "items": ["Moto-taxi", "Livraison colis"], "livraison": true },
-      { "nom": "Studio Photo", "image": "//image/service.jpg","btn":"Réservez un service maintenant", "items": ["Portraits", "Événements"], "livraison": false },
+      { "nom": "Studio Photo", "image": "/image/service.jpg","btn":"Réservez un service maintenant", "items": ["Portraits", "Événements"], "livraison": false },
       { "nom": "Design Graphique", "image": "//image/service.jpg","btn":"Réservez un service maintenant", "items": ["Logos", "Flyers"], "livraison": true },
-      { "nom": "Nettoyage Pro", "image": "//image/service.jpg","btn":"Réservez un service maintenant", "items": ["Bureaux", "Maisons"], "livraison": true },
-      { "nom": "Impression Rapide", "image": "//image/service.jpg","btn":"Réservez un service maintenant", "items": ["Cartes", "Affiches"], "livraison": false },
-      { "nom": "Événementiel Likasi", "image": "//image/service.jpg","btn":"Réservez un service maintenant", "items": ["Décoration", "Sonorisation"], "livraison": true },
-      { "nom": "Consulting Web", "image": "//image/service.jpg","btn":"Réservez un service maintenant", "items": ["Sites web", "SEO"], "livraison": false },
-      { "nom": "Cours Privés", "image": "//image/service.jpg","btn":"Réservez un service maintenant", "items": ["Maths", "Informatique"], "livraison": true }
+      { "nom": "Nettoyage Pro", "image": "/image/service.jpg","btn":"Réservez un service maintenant", "items": ["Bureaux", "Maisons"], "livraison": true },
+      { "nom": "Impression Rapide", "image": "/image/service.jpg","btn":"Réservez un service maintenant", "items": ["Cartes", "Affiches"], "livraison": false },
+      { "nom": "Événementiel Likasi", "image": "/image/service.jpg","btn":"Réservez un service maintenant", "items": ["Décoration", "Sonorisation"], "livraison": true },
+      { "nom": "Consulting Web", "image": "/image/service.jpg","btn":"Réservez un service maintenant", "items": ["Sites web", "SEO"], "livraison": false },
+      { "nom": "Cours Privés", "image": "/image/service.jpg","btn":"Réservez un service maintenant", "items": ["Maths", "Informatique"], "livraison": true }
     ]
   },
   {
