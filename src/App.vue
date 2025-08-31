@@ -12,7 +12,7 @@ import All from '@/views/all.vue';
     <button>Ajouter mon commerce</button>
   </div>
   <div class="search">
-    <Recherche />
+    <Recherche/>
   </div>
  </header> 
  <main>

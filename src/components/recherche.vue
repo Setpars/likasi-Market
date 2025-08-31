@@ -14,7 +14,6 @@ const sections = ref(section.read() ?? []) // sécurise l'import
       v-model="recherche"
       placeholder="Rechercher un commerce, un produit..."
     />
-    <button @click="filter">Recherche</button>
     </div>
    
 </template>
